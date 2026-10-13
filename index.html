@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07120f">
+  <meta name="description" content="الصفحة الشخصية لأمين — البرمجة والإلكترونيات والتقنية والذكاء الاصطناعي.">
+  <title>أمين | الصفحة الشخصية</title>
+  <style>
+    :root{color-scheme:dark;--bg:#07120f;--panel:#0d1c17;--green:#2dd47b;--mint:#a7f3c8;--text:#f2f7f4;--muted:#a4b8ad;--line:#234437}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 15% 0%,#153b2b 0,transparent 38%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+    a{color:var(--mint);text-decoration:none}a:hover{text-decoration:underline}
+    .wrap{width:min(1000px,92%);margin:auto}
+    header{padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid #ffffff12}
+    .brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--green)}
+    nav{display:flex;gap:20px;flex-wrap:wrap;font-size:.93rem;color:var(--muted)}
+    .hero{padding:86px 0 64px;display:grid;grid-template-columns:1.4fr .8fr;gap:34px;align-items:center}
+    .eyebrow{display:inline-block;color:var(--mint);border:1px solid var(--line);background:#10271d;padding:4px 13px;border-radius:999px;font-size:.9rem}
+    h1{font-size:clamp(2.5rem,7vw,4.7rem);line-height:1.2;margin:20px 0 16px;letter-spacing:-1.5px}
+    h1 span{color:var(--green)}
+    .lead{font-size:1.13rem;color:var(--muted);max-width:620px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{display:inline-block;padding:10px 18px;border-radius:12px;border:1px solid var(--line);font-weight:700}
+    .btn.primary{background:var(--green);color:#04120b;border-color:var(--green)}
+    .orb{aspect-ratio:1;border-radius:30px;background:linear-gradient(145deg,#153b2a,#0b1913);border:1px solid var(--line);display:grid;place-items:center;position:relative;overflow:hidden;min-height:250px}
+    .orb:before,.orb:after{content:"";position:absolute;border:1px solid #2dd47b55;border-radius:50%;width:75%;aspect-ratio:1}
+    .orb:after{width:52%}
+    .monogram{z-index:1;font-size:5.5rem;font-weight:900;color:var(--mint);text-shadow:0 0 38px #2dd47b44}
+    section{padding:32px 0 54px}
+    .section-head{margin-bottom:22px}
+    h2{font-size:1.7rem;margin:0 0 5px}
+    .sub{color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .card{padding:22px;background:linear-gradient(160deg,#10231a,#0b1712);border:1px solid var(--line);border-radius:18px}
+    .icon{font-size:1.6rem}.card h3{margin:10px 0 5px}.card p{margin:0;color:var(--muted)}
+    .about{padding:26px;background:#0c1b15;border:1px solid var(--line);border-radius:18px;color:var(--muted)}
+    .tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+    .tag{font-size:.9rem;border:1px solid var(--line);border-radius:999px;padding:5px 12px;color:var(--mint);background:#10271d}
+    footer{border-top:1px solid #ffffff12;padding:24px 0 34px;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:720px){.hero{grid-template-columns:1fr;padding:55px 0 35px}.orb{min-height:210px;max-width:360px;width:100%;margin:auto}.grid{grid-template-columns:1fr}.hero-copy{text-align:center}.lead{margin-inline:auto}.actions{justify-content:center}header{align-items:flex-start;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand">AMIN<span>.</span></div>
+    <nav aria-label="التنقل الرئيسي">
+      <a href="#about">نبذة عني</a><a href="#interests">اهتماماتي</a><a href="#goals">ما أتعلمه</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <span class="eyebrow">مهتم بالتقنية وصناعة الأشياء</span>
+        <h1 id="intro-title">مرحباً، أنا <span>أمين</span></h1>
+        <p class="lead">أحب تحويل الأفكار إلى مشاريع عملية، وأستمتع بالبرمجة والإلكترونيات واستكشاف التقنيات الجديدة، خصوصاً الذكاء الاصطناعي.</p>
+        <div class="actions">
+          <a class="btn primary" href="#interests">اكتشف اهتماماتي</a>
+          <a class="btn" href="#about">اقرأ نبذة عني</a>
+        </div>
+      </div>
+      <div class="orb" aria-label="حرف الألف بتصميم زخرفي"><div class="monogram">أ</div></div>
+    </section>
+
+    <section id="about">
+      <div class="section-head"><h2>نبذة عني</h2><p class="sub">فضول مستمر وتعلّم بالتجربة</p></div>
+      <div class="about">
+        أنا شخص شغوف بالتقنية، أميل إلى التعلّم العملي وتجربة الأدوات بنفسي. لدي اهتمام بالمشاريع الإلكترونية باستخدام المتحكّمات مثل Arduino، وبناء البرامج التي تساعد على تنظيم العمل وحل المشكلات اليومية. أؤمن بأن كل مشروع جديد فرصة لاكتساب مهارة إضافية.
+        <div class="tags"><span class="tag">حل المشكلات</span><span class="tag">التعلّم الذاتي</span><span class="tag">مشاريع عملية</span><span class="tag">تطوير مستمر</span></div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <div class="section-head"><h2>اهتماماتي</h2><p class="sub">مجالات أحب استكشافها وتطوير مهاراتي فيها</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon" aria-hidden="true">⌘</div><h3>البرمجة</h3><p>كتابة البرامج، تعلّم بناء التطبيقات، وتنظيم الكود بطريقة واضحة وقابلة للتطوير.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">⌁</div><h3>الإلكترونيات</h3><p>تصميم الدارات وتجربة المكوّنات وبناء مشاريع عملية باستخدام Arduino وغيرها.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">✦</div><h3>الذكاء الاصطناعي</h3><p>متابعة الأدوات الحديثة واكتشاف طرق الاستفادة منها في التعلّم والعمل.</p></article>
+      </div>
+    </section>
+
+    <section id="goals">
+      <div class="section-head"><h2>رحلتي في التعلّم</h2><p class="sub">خطوات صغيرة نحو معرفة أوسع</p></div>
+      <div class="grid">
+        <article class="card"><h3>تطوير البرمجيات</h3><p>التركيز على كتابة كود مفهوم، وبناء تطبيقات مفيدة، وتحسين جودة المشاريع.</p></article>
+        <article class="card"><h3>الشبكات والأنظمة</h3><p>توسيع المعرفة في الشبكات وإدارة الأنظمة وأدوات الصيانة التقنية.</p></article>
+        <article class="card"><h3>اللغة الإنجليزية</h3><p>تعلّم اللغة تدريجياً للاستفادة من المراجع والدروس التقنية العالمية.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <span>© <span id="year"></span> أمين — صفحة شخصية</span>
+    <span>صُمّمت بعناية وبألوان الأخضر الداكن والأسود</span>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
