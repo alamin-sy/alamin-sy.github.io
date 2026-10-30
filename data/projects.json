@@ -1,0 +1,93 @@
+[
+    {
+        "title": "تطبيق أندرويد",
+        "description": "تطبيق أندرويد لإدارة بيانات الموظفين في ورشة صياغة فضيات",
+        "description_long": "تطبيق أندرويد متخصص في إدارة بيانات الموظفين داخل ورشة صياغة الفضة. يتيح التطبيق عرض معلومات شاملة عن الموظفين، بما في ذلك بيانات الدفعات، الإنتاج، ساعات العمل، والرصيد الحالي، وذلك عبر الوصول المباشر إلى ملف الإكسل الرئيسي الذي تُضاف إليه البيانات. كما تم دمج ميزة التحدث مع الذكاء الاصطناعي بشكل تجريبي، حيث تعمل بكفاءة عالية. ويتميز التطبيق بحماية قوية لملف الإكسل، من خلال تشفيره بعد تنزيله على الهاتف. تم تطوير التطبيق باستخدام برنامج Android Studio.",
+        "image": "assets\/img\/App-WorkShop\/1.jpg",
+        "screenshots": [
+            "assets\/img\/App-WorkShop\/1.jpg",
+            "assets\/img\/App-WorkShop\/2.jpg"
+        ],
+        "tags": [
+            "Java",
+            "Kotlin",
+            "Android"
+        ],
+        "link": "work-details.html?id=0",
+        "link1": "#"
+    },
+    {
+        "title": "بوت إدارة حسابات ورشة صياغة",
+        "description": "بوت تلغرام لتسهيل عثور كل موظف على بيانات",
+        "description_long":"يتيح التطبيق الرد على الأسئلة باستخدام ذكاء Google Gemini الاصطناعي، وإرسال الصور عند إدخال رقمها، وعرض تفاصيل الحساب الشخصي من ملف Excel، وعرض أحدث عمليات الإنتاج الخاصة بالمستخدم، بالإضافة إلى تفاصيل الدفعات المالية وساعات العمل ، مع ميزة التسجيل التلقائي للمستخدم عند أول تفاعل مع البوت.",
+        "image": "assets\/img\/Workshop-accounts\/1.jpg",
+        "screenshots":["assets/img/Workshop-accounts/1.jpg","assets/img/Workshop-accounts/2.jpg"],
+        "tags": [
+            "python",
+            "Telegram"
+        ],
+        "link": "work-details.html?id=1",
+        "link1": "https://t.me/account_ahmadbot"
+    },
+    {
+        "title": "نظام إدارة ورشة الفضة",
+        "description": "تطبيق بسيط لإدارة عرض المنتجات والتعرف على الحالة العامة بسهولة.",
+        "description_long":"موقع لعرض المنتجات الموجود في حسابات ورشة صياغة فضة وهو مخصص لمالك الورشة وأيضا يقوم على سحب بيانات من ملف إكسل ويقوم بفرزها وتنسقها وعرضها بشكل منظم ، الموقع مبني بالكامل باستخدام إطار عمل FastAPI من لغة بايثون.",
+        "image": "assets\/img\/WebSite-Workshop\/1.jpg",
+        "screenshots":["assets/img/WebSite-Workshop/1.jpg"],
+        "tags": [
+            "python",
+            "FastAPI",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "link": "work-details.html?id=2",
+        "link1": "#"
+    },
+    {
+        "title": "سكربتات بسيطة لأتمتة المهام",
+        "description": "مجموعة من السكربتات البسيطة لأتمتة المهام",
+        "description_long":"لقد قمت بإنشاء أكثر من سكربت لأتمتة المهام بعضها يقوم بإعادة تسمية مجموعة ملفات وبعضها يقوم على تعديل مجموعة صور وبعضها الآخر يقوم على تحويل الملفات وأيضا قمت بإنشاء سكربت لسحب النصوص من مجموعة صور وملفات pdf.",
+        "image": "assets\/img\/Script\/1.jpg",
+        "screenshots":["assets/img/Script/1.jpg"],
+        "tags": [
+            "Python",
+            "Java"
+        ],
+        "link": "work-details.html?id=3",
+        "link1": "#"
+    },
+    {
+        "title": "موقع متجر ورشة سليمان",
+        "description": "واجهة عربية أنيقة سريعة الاستجابة وأيضاً عرض جيد وسهل للمنتجات مع أسعارها وسهولة التواصل والشراء.",
+        "description_long":"هو موقع متجر إلكتروني لعرض منتجات ورشة سليمان، يتميز بتصميم واجهة عربية أنيقة وسريعة الاستجابة. يوفر الموقع عرضًا جيدًا وسهلًا للمنتجات مع أسعارها، بالإضافة إلى سهولة التواصل والشراء. تم تطوير الموقع باستخدام تقنيات PHP وJavaScript وCSS وMySQL وHTML.",
+        "image": "assets\/img\/websit-store\/1.jpg",
+        "screenshots":["assets/img/websit-store/1.jpg"],
+        "tags": [
+            "PHP",
+            "JavaScript",
+            "CSS",
+            "MySQL",
+            "HTML"
+        ],
+        "link": "work-details.html?id=4",
+        "link1": "https://silverworkshop.wuaze.com/"
+    },
+    {
+        "title": "موقع متجر لشركة الذهبي",
+        "description": "واجهة عربية أنيقة سريعة الاستجابة وأيضاً عرض جيد وسهل للمنتجات مع أسعارها وسهولة التواصل والشراء.",
+        "description_long":"هو موقع لعرض منتجات لشركة الذهبي، يتميز بتصميم واجهة عربية أنيقة وسريعة الاستجابة. يوفر الموقع عرضًا جيدًا وسهلًا للمنتجات مع أسعارها، بالإضافة إلى سهولة التواصل والشراء. تم تطوير الموقع باستخدام تقنيات PHP وJavaScript وCSS وMySQL وHTML.",
+        "image": "assets\/img\/WebSite-Golden\/1.jpg",
+        "screenshots":["assets/img/WebSite-Golden/1.jpg"],
+        "tags": [
+            "PHP",
+            "JavaScript",
+            "CSS",
+            "MySQL",
+            "HTML"
+        ],
+        "link": "work-details.html?id=5",
+        "link1": "https://gk-golden12.infinityfreeapp.com"
+    }
+]
